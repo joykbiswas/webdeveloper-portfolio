@@ -14,7 +14,10 @@ body{
     border: none;
     padding: 15PX 30PX;
 }
-
+.btn-primary:hover{
+    background:linear-gradient(45deg,#fc9a54,#FD6E0A);
+    
+}
 /* nav related styles */
 nav{
     display: flex;
@@ -44,7 +47,7 @@ nav a{
  .header{
     background-color: #fff8f3;
     background-image: url(images/header_bg.png), url(./images/developer.png);
-    background-size: 600px;
+    background-size: 600px, 80px;
     background-repeat: no-repeat;
     background-position: bottom right, top left;
  }
@@ -78,6 +81,8 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+
 /* about section start here */
 .about{
     padding: 130px;
@@ -178,4 +183,7 @@ textarea{
     border-radius: 5px;
     width: 100%;
     border: 0;
+}
+.social-link a{
+    margin-right: 20px;
 }
